@@ -1,0 +1,10 @@
+button, input {
+	margin: 5px;
+}
+.images {
+	float: left !important;
+	margin: 5px;
+}
+.main {
+	margin-top: 20px;
+}
