@@ -35,11 +35,11 @@ $(document).ready(function() {
       for (var i = 0; i < response.data.length; i++) {
         //$('#gifs').prepend("<div id='image'" + i + ">")
         $('#gifs').prepend("<div class='images'><img class='gif' src='" + 
-          response.data[i].images.fixed_height_still.url + 
+          response.data[i].images.original_still.url + 
           "' data-still= '" + 
-          response.data[i].images.fixed_height_still.url + 
+          response.data[i].images.original_still.url + 
           "' data-animate='" + 
-          response.data[i].images.fixed_height.url + 
+          response.data[i].images.original.url + 
           "' data-state='still'><p>Rating: " + 
           response.data[i].rating + 
           "</p></div>");

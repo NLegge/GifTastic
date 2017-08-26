@@ -1,5 +1,18 @@
+body {
+	background-image: url(../images/villains.png);
+	font-family: 'Patrick Hand SC', cursive;
+}
+label, p {
+	font-family: 'Permanent Marker', cursive;
+	font-size: 24px;
+	background-color: rgba(194,207,200, .9);
+	text-align: center;
+}
 button, input {
 	margin: 5px;
+}
+.container {
+	margin-bottom: 100px;
 }
 .images {
 	float: left !important;
@@ -8,3 +21,17 @@ button, input {
 .main {
 	margin-top: 20px;
 }
+.buttons{
+	background-color: rgba(194,207,200, .9);
+}
+.navbar {
+	background-color: #000000 !important;
+}
+img {
+	margin:auto;
+	height: 150px;
+}
+#giphy {
+	height: 100px;
+}
+
